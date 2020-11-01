@@ -22,3 +22,25 @@ img {
 h1 {
   font-weight: bold;
 }
+
+.score-board {
+  z-index: 1;
+}
+
+.user-label {
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+.computer-label {
+  top: 50%;
+  right: 0;
+  transform: translate(65%, -50%);
+  font-size: 18px;
+}
+
+.choice {
+  cursor: pointer;
+}
