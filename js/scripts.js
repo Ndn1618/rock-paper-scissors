@@ -66,7 +66,6 @@ function draw(user, computer) {
 
 function game (userChoice) {
   var computerChoice = getComputerChoice();
-  console.log(userChoice, computerChoice);
 
   if (userChoice === computerChoice) {
     draw(userChoice, computerChoice);
