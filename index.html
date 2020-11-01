@@ -16,7 +16,7 @@
 
       <div class="score-board border rounded py-3 px-5 position-relative mb-4">
         <span class="user-label badge badge-warning position-absolute">Siz</span>
-        <span class="computer-label badge badge-warning position-absolute">Comp</span>
+        <span class="computer-label badge badge-info position-absolute">Comp</span>
         <div class=" display-4">
           <span class="user-score">0</span>
           :
@@ -24,9 +24,13 @@
         </div>
       </div>
 
+      <div class="mb-4 h4">
+        <span class="user-choice-span border border-warning px-3 py-2">User</span>
+        <span class="computer-choice-span border border-info px-3 py-2">Computer</span>
+      </div>
       <p class="result h4 mb-5">O'yinni boshlaymizmi? :)</p>
 
-      <div class="choices d-flex align-items-center">
+      <div class="choices d-flex align-items-center mb-4">
         <div class="choice hand-rock mr-5 p-4 border rounded">
           <img src="img/hand-rock.png" alt="Hand rock" width="96" height="96">
         </div>
@@ -36,6 +40,10 @@
         <div class="choice hand-scissors p-4 border rounded">
           <img src="img/hand-scissors.png" alt="Hand scissors" width="96" height="96">
         </div>
+      </div>
+
+      <div class="form-group justify-content-center">
+        <input class="reset-input form-control" type="reset" name="reset" aria-label="reset game">
       </div>
     </div>
   </section>
